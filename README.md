@@ -27,16 +27,6 @@ l298n
 	** LINK_PUBLIC l298n-driver
 	** )
 
-	** DEPRACATED
-	** RUN (in ROS)
-	**	$ sudo su
-	**	# <ros_workspace_path>/devel/setup.bash
-	**	# <run program>
-	** if this step is neglected, pigpio will throw
-	** an error stating that super user permission
-	** is required.
-	** DEPRACATED (USING PIGPIOD, REPLACING PIGPIO)
-
 	** SETUP
 	** Remove EN1 and EN2 jumpers for controlling DC
 	** motor.
